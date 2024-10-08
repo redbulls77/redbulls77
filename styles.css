@@ -19,6 +19,7 @@ body {
     text-align: center; /* Center text */
     border-bottom: 1px solid #ccc; /* Grey line below intro section */
     flex: 1; /* Allow intro section to take available space */
+    color: grey;
 }
 
 /* Footer */
@@ -27,6 +28,7 @@ footer {
     padding: 20px; /* Padding for footer */
     text-align: center; /* Center-align text */
     border-top: 1px solid #ccc; /* Grey line above footer */
+    color: grey;
 }
 
 .footer-info {
