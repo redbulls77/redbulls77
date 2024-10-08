@@ -1,116 +1,91 @@
-/* Basic Reset */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Layout */
-body {
-    color: #333;
     line-height: 1.6;
+    background-color: white; /* White background for the entire page */
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #f8f8f8;
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside header */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Center items vertically */
 }
 
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 1px;
+header .logo {
+    font-size: 24px; /* Logo font size */
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
+header nav ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal layout */
 }
 
-nav ul li {
-    margin-left: 30px;
+header nav ul li {
+    margin-left: 20px; /* Space between items */
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
+header nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
 }
 
 .intro {
-    text-align: center;
-    padding: 60px 30px;
-}
-
-.intro h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.intro p {
-    font-size: 18px;
-    color: #555;
+    padding: 50px 20px; /* Padding for intro section */
+    text-align: center; /* Center text */
 }
 
 .projects {
-    text-align: center;
-    padding: 50px;
-    background: #f2f2f2;
+    padding: 20px; /* Padding for projects section */
+    text-align: center; /* Center text */
 }
 
 .placeholder {
-    display: inline-block;
-    padding: 50px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    background-color: #f8f8f8; /* Light background */
+    padding: 20px; /* Padding for placeholder */
+    border: 1px solid #ddd; /* Light border */
 }
 
-.placeholder p {
-    font-size: 16px;
-    color: #777;
+/* Contact Section */
+.contact {
+    padding: 20px; /* Padding for contact section */
+    text-align: center; /* Center-align text */
+    border-top: 1px solid #ccc; /* Grey line above contact section */
+    border-bottom: 1px solid #ccc; /* Grey line below contact section */
 }
 
 footer {
-    text-align: center;
-    padding: 30px 20px;
-    background-color: #f8f8f8;
-    border-top: 1px solid #ddd;
-}
-
-footer p {
-    margin-bottom: 10px;
+    background-color: #f8f8f8; /* Light background for footer */
+    padding: 20px; /* Padding for footer */
+    text-align: center; /* Center-align text */
 }
 
 .footer-info {
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 10px;
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center vertically */
+    margin-top: 10px; /* Space above the footer-info section */
 }
 
-.footer-info a {
-    text-decoration: none;
-    color: #555;
-}
-
-.footer-info a:hover {
-    color: #333;
+.footer-left, .footer-right {
+    flex: 1; /* Allow equal space for left and right */
 }
 
 .social {
-    margin-top: 20px;
+    margin-top: 10px; /* Space above social links */
 }
 
 .social a {
-    text-decoration: none;
-    color: #555;
-    margin: 0 10px;
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
 }
 
 .social a:hover {
-    color: #333;
+    text-decoration: underline; /* Underline on hover */
 }
+
