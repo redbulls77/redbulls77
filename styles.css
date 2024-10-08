@@ -15,13 +15,20 @@ body {
 
 /* Intro Section */
 .intro {
-    padding: 50px 20px; /* Padding for intro section */
+    padding: 50px 0px; /* Padding for intro section */
     text-align: center; /* Center text */
     border-bottom: 1px solid #ccc; /* Grey line below intro section */
     flex: 1; /* Allow intro section to take available space */
     color: grey;
+    font-size: 24px;
 }
 
+.center-image {
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image and add margin for spacing */
+    max-width: 100%; /* Make sure the image doesn't exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
 /* Footer */
 footer {
     background-color: white; /* White background for footer */
