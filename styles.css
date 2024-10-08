@@ -25,7 +25,7 @@ body {
 .center-image {
     display: block; /* Make the image a block element */
     margin: 2em auto; /* Center the image and add margin for spacing */
-    max-width: 50%; /* Make sure the image doesn't exceed the width of its container */
+    max-width: 30%; /* Make sure the image doesn't exceed the width of its container */
     height: 50%; /* Maintain aspect ratio */
 }
 /* Footer */
