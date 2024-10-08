@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333; /* Dark background for the header */
+    background-color: white; /* Dark background for the header */
     color: white; /* White text */
     padding: 10px 20px; /* Padding inside header */
     display: flex; /* Flexbox for layout */
@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 .placeholder {
-    background-color: #f8f8f8; /* Light background */
+    background-color: #white; /* Light background */
     padding: 20px; /* Padding for placeholder */
     border: 1px solid #ddd; /* Light border */
 }
@@ -60,7 +60,7 @@ header nav ul li a {
 }
 
 footer {
-    background-color: #f8f8f8; /* Light background for footer */
+    background-color: #white; /* Light background for footer */
     padding: 20px; /* Padding for footer */
     text-align: center; /* Center-align text */
 }
