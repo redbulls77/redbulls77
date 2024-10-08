@@ -26,7 +26,7 @@ body {
 .center-image {
     display: block; /* Make the image a block element */
     margin: 2em auto; /* Center the image and add margin for spacing */
-    max-width: 80%; /* Default max width for mobile devices */
+    max-width: 40%; /* Default max width for mobile devices */
     height: auto; /* Maintain aspect ratio */
 }
 
