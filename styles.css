@@ -20,7 +20,6 @@ body {
     border-bottom: 1px solid #ccc; /* Grey line below intro section */
     flex: 1; /* Allow intro section to take available space */
     color: grey;
-    font-size: 24px;
 }
 
 .center-image {
