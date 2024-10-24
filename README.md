@@ -1,5 +1,3 @@
-# Testing
-## Wow
-### Woow
+# Repo for my website
 
-> Moi
+Go check it out at https://jeid.live
