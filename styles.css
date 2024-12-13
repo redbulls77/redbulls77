@@ -19,6 +19,7 @@ body {
     border-bottom: 1px solid #ccc;
     flex: 1;
     color: grey;
+    position: relative;
 }
 
 .center-image {
@@ -42,11 +43,11 @@ body {
 }
 
 #prevButton {
-    left: 10px;
+    left: 5%;
 }
 
 #nextButton {
-    right: 10px;
+    right: 5%;
 }
 
 footer {
