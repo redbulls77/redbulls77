@@ -18,6 +18,3 @@ function changeImage(direction) {
     document.getElementById("galleryImage").src = images[currentImageIndex];
 }
 
-document.getElementById("prevButton").addEventListener("click", () => changeImage(-1));
-document.getElementById("nextButton").addEventListener("click", () => changeImage(1));
-
