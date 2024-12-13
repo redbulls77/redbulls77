@@ -44,11 +44,11 @@ body {
 }
 
 #prevButton {
-    left: 10px;
+    left: 10%;
 }
 
 #nextButton {
-    right: 10px;
+    right: 10%;
 }
 
 footer {
