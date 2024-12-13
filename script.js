@@ -1,9 +1,9 @@
 let currentImageIndex = 0;
 const images = [
-    "/images/1.JPEG",
-    "/images/2.JPEG",
-    "/images/3.JPEG",
-    "/images/4.JPEG"
+    "/redbulls77/images/1.JPEG",
+    "/redbulls77/images/2.JPEG",
+    "/redbulls77/images/3.JPEG",
+    "/redbulls77/images/4.JPEG"
 ];
 
 function changeImage(direction) {
