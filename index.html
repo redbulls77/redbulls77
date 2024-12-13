@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';">
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'none';
+        script-src 'self';
+        style-src 'self';
+        img-src 'self';
+        connect-src 'self';
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+        frame-ancestors 'self';">
     <title>Photogallery</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
@@ -12,9 +22,9 @@
 
     <section class="intro">
         <p> Photogallery </p>
-        <button class="nav-button" id="prevButton" onclick="changeImage(-1)">&#8592;</button>
+        <button class="nav-button" id="prevButton">&#8592;</button>
         <img id="galleryImage" src="/images/1.JPEG" alt="LabImage" class="center-image">
-        <button class="nav-button" id="nextButton" onclick="changeImage(1)">&#8594;</button>
+        <button class="nav-button" id="nextButton">&#8594;</button>
     </section>
 
     <footer>
