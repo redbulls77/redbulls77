@@ -1,4 +1,4 @@
-* {
+ {
     box-sizing: border-box;
 }
 
@@ -19,7 +19,6 @@ body {
     border-bottom: 1px solid #ccc;
     flex: 1;
     color: grey;
-    position: relative;
 }
 
 .center-image {
@@ -27,7 +26,6 @@ body {
     margin: 2em auto;
     max-width: 80%;
     height: auto;
-    position: relative;
 }
 
 .nav-button {
@@ -44,11 +42,11 @@ body {
 }
 
 #prevButton {
-    left: 5px;
+    left: 10px;
 }
 
 #nextButton {
-    right: 5px;
+    right: 10px;
 }
 
 footer {
