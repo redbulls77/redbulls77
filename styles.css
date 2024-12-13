@@ -27,6 +27,7 @@ body {
     margin: 2em auto;
     max-width: 80%;
     height: auto;
+    position: relative;
 }
 
 .nav-button {
@@ -43,11 +44,11 @@ body {
 }
 
 #prevButton {
-    left: 5%;
+    left: -50px;
 }
 
 #nextButton {
-    right: 5%;
+    right: -50px;
 }
 
 footer {
