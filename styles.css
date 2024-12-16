@@ -46,12 +46,10 @@ body {
 
 #prevButton {
     left: 10px;
-    z-index: 20;
 }
 
 #nextButton {
     right: 10px;
-    z-index: 20;
 }
 
 footer {
