@@ -1,3 +1,3 @@
-# Repo for my website
+# Repository for my website
 
 Go check it out at https://jeid.live
