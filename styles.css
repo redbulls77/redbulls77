@@ -45,11 +45,11 @@ body {
 }
 
 #prevButton {
-    left: 1em;
+    left: 2em;
 }
 
 #nextButton {
-    right: 1em;
+    right: 2em;
 }
 
 footer {
