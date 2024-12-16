@@ -72,7 +72,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .footer-left, .footer-right {
@@ -80,7 +80,7 @@ footer {
 }
 
 .social {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .social a {
