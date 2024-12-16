@@ -44,12 +44,12 @@ body {
 }
 
 #prevButton {
-    left: 0;
+    left: 10px;
     z-index: 20;
 }
 
 #nextButton {
-    right: 0;
+    right: 10px;
     z-index: 20;
 }
 
