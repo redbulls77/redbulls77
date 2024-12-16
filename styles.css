@@ -45,12 +45,12 @@ body {
 }
 
 #prevButton {
-    left: 10%;
+    left: 0;
     z-index: 20;
 }
 
 #nextButton {
-    right: 10%;
+    right: 0;
     z-index: 20;
 }
 
