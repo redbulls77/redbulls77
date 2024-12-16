@@ -6,10 +6,7 @@ const images = [
     "/images/4.JPEG",
     "/images/5.JPEG",
     "/images/6.JPEG",
-    "/images/7.JPEG",
-    "/images/8.JPEG",
-    "/images/9.JPEG",
-    "/images/10.JPEG"
+    "/images/7.JPEG"
 ];
 
 function changeImage(direction) {
