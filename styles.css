@@ -37,7 +37,7 @@ body {
     transform: translateY(-50%);
     color: grey;
     border: none;
-    font-size: 2em;
+    font-size: 3em;
     padding: 0.5em;
     cursor: pointer;
     z-index: 10;
