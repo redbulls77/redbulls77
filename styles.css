@@ -94,4 +94,13 @@ footer {
         padding: 50px;
         font-size: 1.5rem;
     }
+
+    #prevButton {
+    left: 2em;
+    }
+
+    #nextButton {
+        right: 2em;
+    }
+    
 }
