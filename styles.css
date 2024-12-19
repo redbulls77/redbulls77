@@ -86,13 +86,24 @@ footer {
 }
 
 @media (min-width: 600px) {
-    .center-image {
-        max-width: 30%;
+    .intro {
+        padding: 10px;
     }
 
-    .intro {
-        padding: 50px;
-        font-size: 1.5rem;
+    .center-image {
+        max-width: 100%;
     }
-    
+
+    .nav-button {
+        font-size: 1.2em;
+        padding: 8px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .nav-button {
+        margin: 10px 0;
+    }
 }
