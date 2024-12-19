@@ -97,12 +97,12 @@ footer {
 
     #prevButton {
         left: 2em;
-        margin: 10px auto;
+        margin: 50px;
     }
 
     #nextButton {
         right: 2em;
-        margin: 10px auto;
+        margin: 50px;
     }
     
 }
