@@ -36,11 +36,13 @@ body {
     top: 50%;
     transform: translateY(-50%);
     color: grey;
-    border: 1px grey;
+    border: none;
     font-size: 2em;
     padding: 0.5em;
     cursor: pointer;
     z-index: 10;
+    background: none;
+    border: none;
 }
 
 #prevButton {
