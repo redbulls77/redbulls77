@@ -1,4 +1,4 @@
-* {
+ {
     box-sizing: border-box;
 }
 
@@ -15,40 +15,42 @@ body {
 }
 
 .intro {
-    padding: 20px;
+    padding: 0 px;
     text-align: center;
     border-bottom: 1px solid #ccc;
     flex: 1;
     color: grey;
+    position: relative;
 }
 
 .center-image {
+    position: relative;
     display: block;
     margin: 2em auto;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
 }
 
 .nav-button {
-    font-size: 1.5em;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     color: grey;
-    transition: background-color 0.3s;
+    border: none;
+    font-size: 3em;
+    padding: 0.5em;
+    cursor: pointer;
+    z-index: 10;
+    background: none;
+    border: none;
 }
 
-.nav-button:hover {
-    background-color: #e0e0e0;
+#prevButton {
+    left: 6em;
+}
+
+#nextButton {
+    right: 6em;
 }
 
 footer {
@@ -63,6 +65,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5px;
 }
 
 .footer-left, .footer-right {
@@ -76,32 +79,30 @@ footer {
 .social a {
     text-decoration: none;
     color: #007bff;
-    transition: color 0.3s;
 }
 
 .social a:hover {
-    color: #0056b3;
+    text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-    .intro {
-        padding: 10px;
-    }
-
+@media (min-width: 600px) {
     .center-image {
-        max-width: 100%;
+        max-width: 30%;
     }
 
-    .nav-button {
-        font-size: 1.2em;
-        padding: 8px;
+    .intro {
+        padding: 50px;
+        font-size: 1.5rem;
     }
 
-    .button-container {
-        flex-direction: column;
+    #prevButton {
+        left: 2em;
+        margin: 50px;
     }
 
-    .nav-button {
-        margin: 10px 0;
+    #nextButton {
+        right: 2em;
+        margin: 50px;
     }
+    
 }
