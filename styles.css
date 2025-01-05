@@ -17,7 +17,6 @@ body {
 .intro {
     padding: 0 px;
     text-align: center;
-    border-bottom: 1px solid #ccc;
     flex: 1;
     color: grey;
     position: relative;
